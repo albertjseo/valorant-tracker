@@ -1,0 +1,77 @@
+/* Style the body */
+body {
+    background-color: #fd4556;
+    font-family: 'VALORANT', sans-serif;
+}
+
+.bg-img {
+  /* image to be used*/
+  background-image: url("valorant.png");
+  min-height: 380px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.nav-container {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #111823;
+  margin: 1px;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+/* Styling main */
+main {
+  background-color: #111823;
+  color: #ffffff;
+  padding: 20px;
+  margin: 1px;
+  position: relative;
+  min-width: 40vw;
+  min-height: 50vh;
+  height: 100%;
+}
+
+.main-container {
+  color: #ffffff;
+
+}
+
+/* Styling footer*/
+
+/* Footer */
+footer {
+  text-align: center;
+  background-color: #111823;
+  color: #ffffff;
+  padding: 20px;
+  margin: 1px;
+  position: relative;
+}
+
+.copyright {
+  margin-right: auto;
+}
